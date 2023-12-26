@@ -1,0 +1,62 @@
+/* Style.css */
+
+body{
+    align-items: center;
+    background-color: #d9bebe;
+}
+.box {
+    width: 300px;
+    background-color: #0dafaf;
+    margin-top: 8%;
+    margin-left: 35%;
+    text-align: center;
+    margin: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .inputData {
+    margin-bottom: 20px;
+  }
+  
+  .inputField {
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .errorMsg {
+    color: red;
+  }
+  
+  .info {
+    margin-top: 20px;
+    }
+  
+  .location {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .temp {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  
+  .tempmin_max {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .wave {
+    height: 10px;
+    width: 100%;
+    background-color: #f0f0f0;
+    margin-top: 10px;
+    position: relative;
+    overflow: hidden; /* Ensure the waves are clipped to the container */
+  }
